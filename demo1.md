@@ -11,3 +11,11 @@ then
 fi
 
 
+        logger.debug(__file__)
+        logger.debug(__name__)
+        logger.debug(os.getcwd())
+        logger.debug(os.path.abspath(__file__))
+        logger.debug(os.path.dirname(os.path.abspath(__file__)))
+        logger.debug(os.path.basename(os.path.abspath(__file__)))
+
+        https://zhuanlan.zhihu.com/p/388550931
